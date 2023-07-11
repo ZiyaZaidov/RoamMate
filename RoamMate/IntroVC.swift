@@ -16,14 +16,16 @@ class IntroVC: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func skipButtonPressed(_ sender: UIButton) {
+      
     }
-    */
-
+    
+    @IBAction func getstartedPressed(_ sender: UIButton) {
+        Routing.shared.presentOnboardingVC { vc in
+            self.present(vc, animated: true)
+        }
+    }
+    
+    @IBAction func signInPressed(_ sender: UIButton) {
+    }
 }

@@ -33,4 +33,14 @@ class Routing {
         controller.modalPresentationStyle = .fullScreen
         return controller
     }
+    
+    func presentOnboardingVC(complition: @escaping (OnboardingVC) -> Void) {
+        let controller = getViewController(id:String(describing: OnboardingVC.self), storyboard: "Main") as! OnboardingVC
+        complition(controller)
+    }
+    
+//    func presentSignUpVC(complition: @escaping (SignUpVC) -> Void) {
+//        let controller = getViewController(id:String(describing: SignUpVC.self), storyboard: "Login") as! SignUpVC
+//        complition(controller)
+//    }
 }
