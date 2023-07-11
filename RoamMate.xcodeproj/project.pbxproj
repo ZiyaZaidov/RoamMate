@@ -9,21 +9,28 @@
 /* Begin PBXBuildFile section */
 		788FE0162A5D8B830030D39C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788FE0152A5D8B830030D39C /* AppDelegate.swift */; };
 		788FE0182A5D8B830030D39C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788FE0172A5D8B830030D39C /* SceneDelegate.swift */; };
-		788FE01A2A5D8B830030D39C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788FE0192A5D8B830030D39C /* ViewController.swift */; };
 		788FE01D2A5D8B830030D39C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788FE01B2A5D8B830030D39C /* Main.storyboard */; };
 		788FE01F2A5D8B860030D39C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788FE01E2A5D8B860030D39C /* Assets.xcassets */; };
 		788FE0222A5D8B860030D39C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788FE0202A5D8B860030D39C /* LaunchScreen.storyboard */; };
+		78C6B2162A5D9002009EB152 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 78C6B2152A5D9002009EB152 /* Fonts */; };
+		78C6B21D2A5D912C009EB152 /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C6B21C2A5D912C009EB152 /* IntroVC.swift */; };
+		78C6B2202A5D97F0009EB152 /* KeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C6B21F2A5D97F0009EB152 /* KeyboardExtension.swift */; };
+		78C6B2232A5D988F009EB152 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C6B2222A5D988F009EB152 /* Routing.swift */; };
+		78C6B2262A5D98C2009EB152 /* Shift in Frameworks */ = {isa = PBXBuildFile; productRef = 78C6B2252A5D98C2009EB152 /* Shift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		788FE0122A5D8B830030D39C /* RoamMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoamMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788FE0152A5D8B830030D39C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		788FE0172A5D8B830030D39C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		788FE0192A5D8B830030D39C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		788FE01C2A5D8B830030D39C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		788FE01E2A5D8B860030D39C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		788FE0212A5D8B860030D39C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		788FE0232A5D8B860030D39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C6B2152A5D9002009EB152 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		78C6B21C2A5D912C009EB152 /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		78C6B21F2A5D97F0009EB152 /* KeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardExtension.swift; sourceTree = "<group>"; };
+		78C6B2222A5D988F009EB152 /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C6B2262A5D98C2009EB152 /* Shift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +48,7 @@
 		788FE0092A5D8B830030D39C = {
 			isa = PBXGroup;
 			children = (
+				78C6B2152A5D9002009EB152 /* Fonts */,
 				788FE0142A5D8B830030D39C /* RoamMate */,
 				788FE0132A5D8B830030D39C /* Products */,
 			);
@@ -56,15 +65,81 @@
 		788FE0142A5D8B830030D39C /* RoamMate */ = {
 			isa = PBXGroup;
 			children = (
-				788FE0152A5D8B830030D39C /* AppDelegate.swift */,
-				788FE0172A5D8B830030D39C /* SceneDelegate.swift */,
-				788FE0192A5D8B830030D39C /* ViewController.swift */,
-				788FE01B2A5D8B830030D39C /* Main.storyboard */,
-				788FE01E2A5D8B860030D39C /* Assets.xcassets */,
-				788FE0202A5D8B860030D39C /* LaunchScreen.storyboard */,
-				788FE0232A5D8B860030D39C /* Info.plist */,
+				78C6B2212A5D987E009EB152 /* Routing */,
+				78C6B2172A5D90AC009EB152 /* Scene */,
+				78C6B21E2A5D97D7009EB152 /* Extensions */,
+				788FE0292A5D8C6F0030D39C /* Support */,
 			);
 			path = RoamMate;
+			sourceTree = "<group>";
+		};
+		788FE0292A5D8C6F0030D39C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				788FE0232A5D8B860030D39C /* Info.plist */,
+				788FE01E2A5D8B860030D39C /* Assets.xcassets */,
+				788FE0172A5D8B830030D39C /* SceneDelegate.swift */,
+				788FE0152A5D8B830030D39C /* AppDelegate.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		78C6B2172A5D90AC009EB152 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				78C6B2182A5D90B8009EB152 /* Intro */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		78C6B2182A5D90B8009EB152 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				78C6B2192A5D90D3009EB152 /* Model */,
+				78C6B21A2A5D90DB009EB152 /* View */,
+				78C6B21B2A5D90E2009EB152 /* Controller */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		78C6B2192A5D90D3009EB152 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		78C6B21A2A5D90DB009EB152 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				788FE01B2A5D8B830030D39C /* Main.storyboard */,
+				788FE0202A5D8B860030D39C /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		78C6B21B2A5D90E2009EB152 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78C6B21C2A5D912C009EB152 /* IntroVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		78C6B21E2A5D97D7009EB152 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				78C6B21F2A5D97F0009EB152 /* KeyboardExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		78C6B2212A5D987E009EB152 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				78C6B2222A5D988F009EB152 /* Routing.swift */,
+			);
+			name = Routing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +158,9 @@
 			dependencies = (
 			);
 			name = RoamMate;
+			packageProductDependencies = (
+				78C6B2252A5D98C2009EB152 /* Shift */,
+			);
 			productName = RoamMate;
 			productReference = 788FE0122A5D8B830030D39C /* RoamMate.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +189,9 @@
 				Base,
 			);
 			mainGroup = 788FE0092A5D8B830030D39C;
+			packageReferences = (
+				78C6B2242A5D98C2009EB152 /* XCRemoteSwiftPackageReference "Shift" */,
+			);
 			productRefGroup = 788FE0132A5D8B830030D39C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +209,7 @@
 				788FE0222A5D8B860030D39C /* LaunchScreen.storyboard in Resources */,
 				788FE01F2A5D8B860030D39C /* Assets.xcassets in Resources */,
 				788FE01D2A5D8B830030D39C /* Main.storyboard in Resources */,
+				78C6B2162A5D9002009EB152 /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +220,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788FE01A2A5D8B830030D39C /* ViewController.swift in Sources */,
+				78C6B2232A5D988F009EB152 /* Routing.swift in Sources */,
+				78C6B2202A5D97F0009EB152 /* KeyboardExtension.swift in Sources */,
 				788FE0162A5D8B830030D39C /* AppDelegate.swift in Sources */,
 				788FE0182A5D8B830030D39C /* SceneDelegate.swift in Sources */,
+				78C6B21D2A5D912C009EB152 /* IntroVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +374,7 @@
 				DEVELOPMENT_TEAM = KV9PV8UPX3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RoamMate/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,6 +407,7 @@
 				DEVELOPMENT_TEAM = KV9PV8UPX3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RoamMate/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -366,6 +452,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78C6B2242A5D98C2009EB152 /* XCRemoteSwiftPackageReference "Shift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wickwirew/Shift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78C6B2252A5D98C2009EB152 /* Shift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78C6B2242A5D98C2009EB152 /* XCRemoteSwiftPackageReference "Shift" */;
+			productName = Shift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 788FE00A2A5D8B830030D39C /* Project object */;
 }

@@ -21,5 +21,16 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>CabinetGrotesk-Thin.otf</string>
+		<string>CabinetGrotesk-Regular.otf</string>
+		<string>CabinetGrotesk-Medium.otf</string>
+		<string>CabinetGrotesk-Light.otf</string>
+		<string>CabinetGrotesk-Extralight.otf</string>
+		<string>CabinetGrotesk-Extrabold.otf</string>
+		<string>CabinetGrotesk-Bold.otf</string>
+		<string>CabinetGrotesk-Black.otf</string>
+	</array>
 </dict>
 </plist>
