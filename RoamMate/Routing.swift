@@ -39,8 +39,8 @@ class Routing {
         complition(controller)
     }
     
-//    func presentSignUpVC(complition: @escaping (SignUpVC) -> Void) {
-//        let controller = getViewController(id:String(describing: SignUpVC.self), storyboard: "Login") as! SignUpVC
-//        complition(controller)
-//    }
+    func presentSignUpVC(complition: @escaping (SignUpVC) -> Void) {
+        let controller = getViewController(id:String(describing: SignUpVC.self), storyboard: "Login") as! SignUpVC
+        complition(controller)
+    }
 }

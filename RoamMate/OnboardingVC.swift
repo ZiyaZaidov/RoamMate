@@ -41,7 +41,9 @@ class OnboardingVC: UIViewController {
 
     @IBAction func netxButtonPressed(_ sender: UIButton) {
         if currentPage == slides.count - 1 {
-           print("ok")
+            Routing.shared.presentSignUpVC { vc in
+                self.present(vc, animated: true)
+            }
             }else {
                 currentPage += 1
                 let indexPath = IndexPath(item: currentPage, section: 0)
@@ -52,7 +54,7 @@ class OnboardingVC: UIViewController {
     }
 
 
-extension OnboardingVC: UICollectionViewDelegate,UICollectionViewDataSource {
+extension OnboardingVC: UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return slides.count
@@ -63,5 +65,13 @@ extension OnboardingVC: UICollectionViewDelegate,UICollectionViewDataSource {
         cell.configure(slides[indexPath.row])
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+      
+        let width = self.collectionView.frame.width
+        let height = self.collectionView.frame.height
+        
+        return CGSize(width: width, height: height)
+        }
     
 }
