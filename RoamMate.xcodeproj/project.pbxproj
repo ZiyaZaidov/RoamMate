@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		785B73422A5EC58500DE3947 /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B73412A5EC58500DE3947 /* ForgotVC.swift */; };
+		785B73452A5EC5F400DE3947 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B73442A5EC5F400DE3947 /* CustomTextField.swift */; };
+		785B73472A5ED51100DE3947 /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B73462A5ED51100DE3947 /* OTPVC.swift */; };
+		785B73492A5F47FF00DE3947 /* NewPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B73482A5F47FF00DE3947 /* NewPasswordVC.swift */; };
+		785B734B2A5FE66D00DE3947 /* LoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B734A2A5FE66D00DE3947 /* LoadingVC.swift */; };
 		786FD0E92A5DFC510010F212 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD0E82A5DFC510010F212 /* OnboardingModel.swift */; };
 		7885AD952A5E291700200364 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885AD942A5E291700200364 /* SignUpVC.swift */; };
 		7885AD972A5E292A00200364 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7885AD962A5E292A00200364 /* Login.storyboard */; };
-		7885AD9A2A5E2AFD00200364 /* CustomLoginTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885AD992A5E2AFD00200364 /* CustomLoginTextfield.swift */; };
 		788FE0162A5D8B830030D39C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788FE0152A5D8B830030D39C /* AppDelegate.swift */; };
 		788FE0182A5D8B830030D39C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788FE0172A5D8B830030D39C /* SceneDelegate.swift */; };
 		788FE01D2A5D8B830030D39C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788FE01B2A5D8B830030D39C /* Main.storyboard */; };
@@ -27,10 +31,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		785B73412A5EC58500DE3947 /* ForgotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotVC.swift; sourceTree = "<group>"; };
+		785B73442A5EC5F400DE3947 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		785B73462A5ED51100DE3947 /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
+		785B73482A5F47FF00DE3947 /* NewPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordVC.swift; sourceTree = "<group>"; };
+		785B734A2A5FE66D00DE3947 /* LoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingVC.swift; sourceTree = "<group>"; };
 		786FD0E82A5DFC510010F212 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 		7885AD942A5E291700200364 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		7885AD962A5E292A00200364 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		7885AD992A5E2AFD00200364 /* CustomLoginTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginTextfield.swift; sourceTree = "<group>"; };
 		788FE0122A5D8B830030D39C /* RoamMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoamMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788FE0152A5D8B830030D39C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		788FE0172A5D8B830030D39C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +67,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		785B73432A5EC5DB00DE3947 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				785B73442A5EC5F400DE3947 /* CustomTextField.swift */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
 		7885AD902A5E28B400200364 /* LogIn */ = {
 			isa = PBXGroup;
 			children = (
-				7885AD982A5E2AE400200364 /* CusomViews */,
 				7885AD932A5E28D800200364 /* Model */,
 				7885AD922A5E28D100200364 /* View */,
 				7885AD912A5E28C500200364 /* Controller */,
@@ -75,6 +90,9 @@
 			children = (
 				7885AD942A5E291700200364 /* SignUpVC.swift */,
 				78A2D1142A5E5254002E2BA8 /* LogInVC.swift */,
+				785B73412A5EC58500DE3947 /* ForgotVC.swift */,
+				785B73462A5ED51100DE3947 /* OTPVC.swift */,
+				785B73482A5F47FF00DE3947 /* NewPasswordVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -92,14 +110,6 @@
 			children = (
 			);
 			name = Model;
-			sourceTree = "<group>";
-		};
-		7885AD982A5E2AE400200364 /* CusomViews */ = {
-			isa = PBXGroup;
-			children = (
-				7885AD992A5E2AFD00200364 /* CustomLoginTextfield.swift */,
-			);
-			name = CusomViews;
 			sourceTree = "<group>";
 		};
 		788FE0092A5D8B830030D39C = {
@@ -122,6 +132,7 @@
 		788FE0142A5D8B830030D39C /* RoamMate */ = {
 			isa = PBXGroup;
 			children = (
+				785B73432A5EC5DB00DE3947 /* CustomViews */,
 				78C6B2212A5D987E009EB152 /* Routing */,
 				78C6B2172A5D90AC009EB152 /* Scene */,
 				78C6B21E2A5D97D7009EB152 /* Extensions */,
@@ -183,6 +194,7 @@
 			children = (
 				78C6B21C2A5D912C009EB152 /* IntroVC.swift */,
 				78C6B2272A5DC529009EB152 /* OnboardingVC.swift */,
+				785B734A2A5FE66D00DE3947 /* LoadingVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -290,17 +302,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				785B73452A5EC5F400DE3947 /* CustomTextField.swift in Sources */,
+				785B73472A5ED51100DE3947 /* OTPVC.swift in Sources */,
 				78C6B2232A5D988F009EB152 /* Routing.swift in Sources */,
 				7885AD952A5E291700200364 /* SignUpVC.swift in Sources */,
-				7885AD9A2A5E2AFD00200364 /* CustomLoginTextfield.swift in Sources */,
 				78C6B2282A5DC529009EB152 /* OnboardingVC.swift in Sources */,
 				78C6B2202A5D97F0009EB152 /* KeyboardExtension.swift in Sources */,
 				788FE0162A5D8B830030D39C /* AppDelegate.swift in Sources */,
 				786FD0E92A5DFC510010F212 /* OnboardingModel.swift in Sources */,
+				785B73492A5F47FF00DE3947 /* NewPasswordVC.swift in Sources */,
 				788FE0182A5D8B830030D39C /* SceneDelegate.swift in Sources */,
 				78A2D1152A5E5254002E2BA8 /* LogInVC.swift in Sources */,
 				78C6B22B2A5DC805009EB152 /* OnboardingCollectionViewCell.swift in Sources */,
 				78C6B21D2A5D912C009EB152 /* IntroVC.swift in Sources */,
+				785B73422A5EC58500DE3947 /* ForgotVC.swift in Sources */,
+				785B734B2A5FE66D00DE3947 /* LoadingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

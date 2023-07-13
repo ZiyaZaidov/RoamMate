@@ -17,7 +17,9 @@ class IntroVC: UIViewController {
     
 
     @IBAction func skipButtonPressed(_ sender: UIButton) {
-      
+        Routing.shared.presentSignUpVC { vc in
+            self.present(vc, animated: true)
+        }
     }
     
     @IBAction func getstartedPressed(_ sender: UIButton) {
@@ -27,5 +29,8 @@ class IntroVC: UIViewController {
     }
     
     @IBAction func signInPressed(_ sender: UIButton) {
+        Routing.shared.presentLogInVC { vc in
+            self.present(vc, animated: true)
+        }
     }
 }

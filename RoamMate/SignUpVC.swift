@@ -9,9 +9,24 @@ import UIKit
 
 class SignUpVC: UIViewController {
     
-    @IBOutlet weak var userNameTextField: CustomTextField!
-    @IBOutlet weak var emailTextField: CustomTextField!
-    @IBOutlet weak var passwordTextField: CustomTextField!
+    @IBOutlet weak var userNameTextField: CustomTextField!{
+        didSet {
+            userNameTextField.setIcon(UIImage(imageLiteralResourceName: "user"))
+            userNameTextField.tintColor = UIColor(named: "Orange500")
+        }
+    }
+    @IBOutlet weak var emailTextField: CustomTextField!{
+        didSet{
+            emailTextField.setIcon(UIImage(imageLiteralResourceName: "mail"))
+            emailTextField.tintColor = UIColor(named: "Orange500")
+        }
+    }
+    @IBOutlet weak var passwordTextField: CustomTextField!{
+        didSet{
+            passwordTextField.setIcon(UIImage(imageLiteralResourceName: "lock-closed"))
+            passwordTextField.tintColor = UIColor(named: "Orange500")
+        }
+    }
     
     
     override func viewDidLoad() {
@@ -32,6 +47,9 @@ class SignUpVC: UIViewController {
     }
     
     @IBAction func logInTapped(_ sender: UIButton) {
+        Routing.shared.presentLogInVC { vc in
+            self.present(vc, animated: true)
+        }
     }
 }
 

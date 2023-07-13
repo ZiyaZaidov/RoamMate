@@ -1,5 +1,5 @@
 //
-//  CustomLoginTextfield.swift
+//  CustomTextField.swift
 //  RoamMate
 //
 //  Created by ziya on 12.07.23.
