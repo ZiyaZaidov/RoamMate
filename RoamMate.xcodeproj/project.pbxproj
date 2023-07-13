@@ -11,7 +11,6 @@
 		785B73452A5EC5F400DE3947 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B73442A5EC5F400DE3947 /* CustomTextField.swift */; };
 		785B73472A5ED51100DE3947 /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B73462A5ED51100DE3947 /* OTPVC.swift */; };
 		785B73492A5F47FF00DE3947 /* NewPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B73482A5F47FF00DE3947 /* NewPasswordVC.swift */; };
-		785B734B2A5FE66D00DE3947 /* LoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B734A2A5FE66D00DE3947 /* LoadingVC.swift */; };
 		786FD0E92A5DFC510010F212 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD0E82A5DFC510010F212 /* OnboardingModel.swift */; };
 		7885AD952A5E291700200364 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885AD942A5E291700200364 /* SignUpVC.swift */; };
 		7885AD972A5E292A00200364 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7885AD962A5E292A00200364 /* Login.storyboard */; };
@@ -28,6 +27,7 @@
 		78C6B2262A5D98C2009EB152 /* Shift in Frameworks */ = {isa = PBXBuildFile; productRef = 78C6B2252A5D98C2009EB152 /* Shift */; };
 		78C6B2282A5DC529009EB152 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C6B2272A5DC529009EB152 /* OnboardingVC.swift */; };
 		78C6B22B2A5DC805009EB152 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C6B22A2A5DC805009EB152 /* OnboardingCollectionViewCell.swift */; };
+		78CF7F712A60000C0000E870 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CF7F702A60000C0000E870 /* UserDefaults+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,6 @@
 		785B73442A5EC5F400DE3947 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		785B73462A5ED51100DE3947 /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
 		785B73482A5F47FF00DE3947 /* NewPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordVC.swift; sourceTree = "<group>"; };
-		785B734A2A5FE66D00DE3947 /* LoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingVC.swift; sourceTree = "<group>"; };
 		786FD0E82A5DFC510010F212 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 		7885AD942A5E291700200364 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		7885AD962A5E292A00200364 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		78C6B2222A5D988F009EB152 /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
 		78C6B2272A5DC529009EB152 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		78C6B22A2A5DC805009EB152 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		78CF7F702A60000C0000E870 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,7 +194,6 @@
 			children = (
 				78C6B21C2A5D912C009EB152 /* IntroVC.swift */,
 				78C6B2272A5DC529009EB152 /* OnboardingVC.swift */,
-				785B734A2A5FE66D00DE3947 /* LoadingVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -203,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				78C6B21F2A5D97F0009EB152 /* KeyboardExtension.swift */,
+				78CF7F702A60000C0000E870 /* UserDefaults+Extension.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -308,6 +308,7 @@
 				7885AD952A5E291700200364 /* SignUpVC.swift in Sources */,
 				78C6B2282A5DC529009EB152 /* OnboardingVC.swift in Sources */,
 				78C6B2202A5D97F0009EB152 /* KeyboardExtension.swift in Sources */,
+				78CF7F712A60000C0000E870 /* UserDefaults+Extension.swift in Sources */,
 				788FE0162A5D8B830030D39C /* AppDelegate.swift in Sources */,
 				786FD0E92A5DFC510010F212 /* OnboardingModel.swift in Sources */,
 				785B73492A5F47FF00DE3947 /* NewPasswordVC.swift in Sources */,
@@ -316,7 +317,6 @@
 				78C6B22B2A5DC805009EB152 /* OnboardingCollectionViewCell.swift in Sources */,
 				78C6B21D2A5D912C009EB152 /* IntroVC.swift in Sources */,
 				785B73422A5EC58500DE3947 /* ForgotVC.swift in Sources */,
-				785B734B2A5FE66D00DE3947 /* LoadingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,7 +469,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -502,7 +501,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

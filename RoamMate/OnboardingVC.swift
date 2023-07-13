@@ -41,10 +41,12 @@ class OnboardingVC: UIViewController {
 
     @IBAction func netxButtonPressed(_ sender: UIButton) {
         if currentPage == slides.count - 1 {
+//            let controller = storyboard?.instantiateViewController(withIdentifier: "Login") as! LogInVC
+            UserDefaults.standard.hasOnboarded = true
             Routing.shared.presentSignUpVC { vc in
                 self.present(vc, animated: true)
             }
-            }else {
+             } else {
                 currentPage += 1
                 let indexPath = IndexPath(item: currentPage, section: 0)
                 collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SmM-PE-Cd7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BNG-li-iwh">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -19,30 +19,6 @@
         </array>
     </customFonts>
     <scenes>
-        <!--LoadingVC-->
-        <scene sceneID="rA6-sF-Zxr">
-            <objects>
-                <viewController id="SmM-PE-Cd7" customClass="LoadingVC" customModule="RoamMate" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="elg-t1-iQl">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" restorationIdentifier="LoadingVC" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="gla-Ux-XtX" customClass="LoadingVC">
-                                <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
-                            </activityIndicatorView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Tdw-mp-r6t"/>
-                        <color key="backgroundColor" name="BackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="gla-Ux-XtX" firstAttribute="centerX" secondItem="elg-t1-iQl" secondAttribute="centerX" id="EEF-9F-TLn"/>
-                            <constraint firstItem="gla-Ux-XtX" firstAttribute="centerY" secondItem="elg-t1-iQl" secondAttribute="centerY" id="Hxi-Ag-uEt"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ysi-uE-Chk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-882" y="63"/>
-        </scene>
         <!--IntroVC-->
         <scene sceneID="MzB-wV-PSk">
             <objects>

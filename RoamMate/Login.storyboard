@@ -259,10 +259,10 @@
             </objects>
             <point key="canvasLocation" x="82" y="-121"/>
         </scene>
-        <!--Log InVC-->
+        <!--LoginVC-->
         <scene sceneID="Vvc-fM-CS4">
             <objects>
-                <viewController storyboardIdentifier="LogInVC" id="YrL-RK-fMN" customClass="LogInVC" customModule="RoamMate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogInVC" id="YrL-RK-fMN" userLabel="LoginVC" customClass="LogInVC" customModule="RoamMate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="omB-gM-BvQ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
