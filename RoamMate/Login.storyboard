@@ -662,7 +662,7 @@ the verification code.</string>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="uED-uE-D2K"/>
                                         </constraints>
                                         <attributedString key="attributedText"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="right" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S0f-Az-Ucv" customClass="CustomTextField" customModule="RoamMate" customModuleProvider="target">
                                         <rect key="frame" x="70.666666666666671" y="0.0" width="50" height="60"/>
@@ -673,7 +673,7 @@ the verification code.</string>
                                             <constraint firstAttribute="height" constant="60" id="o4M-C0-JWP"/>
                                         </constraints>
                                         <attributedString key="attributedText"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="right" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gXf-i0-WBt" customClass="CustomTextField" customModule="RoamMate" customModuleProvider="target">
                                         <rect key="frame" x="141.66666666666666" y="0.0" width="50" height="60"/>
@@ -684,7 +684,7 @@ the verification code.</string>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="tcp-DQ-GS5"/>
                                         </constraints>
                                         <attributedString key="attributedText"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="right" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Cz-Dn-BHI" customClass="CustomTextField" customModule="RoamMate" customModuleProvider="target">
                                         <rect key="frame" x="212.33333333333334" y="0.0" width="50.000000000000028" height="60"/>
@@ -695,7 +695,7 @@ the verification code.</string>
                                             <constraint firstAttribute="height" constant="60" id="o9R-M6-iSA"/>
                                         </constraints>
                                         <attributedString key="attributedText"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="right" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0L5-mB-GLI" customClass="CustomTextField" customModule="RoamMate" customModuleProvider="target">
                                         <rect key="frame" x="283" y="0.0" width="50" height="60"/>
@@ -706,7 +706,7 @@ the verification code.</string>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="epJ-Nx-bJs"/>
                                         </constraints>
                                         <attributedString key="attributedText"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad"/>
                                     </textField>
                                 </subviews>
                                 <constraints>
@@ -771,6 +771,13 @@ the verification code.</string>
                             <constraint firstItem="Xcz-AJ-cgF" firstAttribute="centerX" secondItem="xp2-m4-RKC" secondAttribute="centerX" id="zBl-9r-bik"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="OTPTextField1" destination="YUY-8p-cHt" id="4EF-xA-jWU"/>
+                        <outlet property="OTPTextField2" destination="S0f-Az-Ucv" id="uYO-1o-sug"/>
+                        <outlet property="OTPTextField3" destination="gXf-i0-WBt" id="VsN-79-yiT"/>
+                        <outlet property="OTPTextField4" destination="2Cz-Dn-BHI" id="XyA-Q0-wpF"/>
+                        <outlet property="OTPTextField5" destination="0L5-mB-GLI" id="yDe-7U-lKF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ORE-4O-0lZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
