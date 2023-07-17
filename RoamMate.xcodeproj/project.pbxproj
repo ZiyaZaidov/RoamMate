@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F83A6F22A649CBE004DAF71 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F83A6F12A649CBE004DAF71 /* TabBar.storyboard */; };
+		5F83A6F42A64A303004DAF71 /* MainPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F83A6F32A64A303004DAF71 /* MainPageVC.swift */; };
+		5F83A6F62A64AC49004DAF71 /* UITabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F83A6F52A64AC49004DAF71 /* UITabBarVC.swift */; };
 		785B73422A5EC58500DE3947 /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B73412A5EC58500DE3947 /* ForgotVC.swift */; };
 		785B73452A5EC5F400DE3947 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B73442A5EC5F400DE3947 /* CustomTextField.swift */; };
 		785B73472A5ED51100DE3947 /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B73462A5ED51100DE3947 /* OTPVC.swift */; };
@@ -31,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F83A6F12A649CBE004DAF71 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		5F83A6F32A64A303004DAF71 /* MainPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageVC.swift; sourceTree = "<group>"; };
+		5F83A6F52A64AC49004DAF71 /* UITabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarVC.swift; sourceTree = "<group>"; };
 		785B73412A5EC58500DE3947 /* ForgotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotVC.swift; sourceTree = "<group>"; };
 		785B73442A5EC5F400DE3947 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		785B73462A5ED51100DE3947 /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
@@ -67,6 +73,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F83A6EB2A649A22004DAF71 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				5F83A6EE2A649A4A004DAF71 /* Model */,
+				5F83A6ED2A649A42004DAF71 /* View */,
+				5F83A6EC2A649A3B004DAF71 /* Controller */,
+			);
+			name = MainPage;
+			sourceTree = "<group>";
+		};
+		5F83A6EC2A649A3B004DAF71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F83A6F52A64AC49004DAF71 /* UITabBarVC.swift */,
+				5F83A6F32A64A303004DAF71 /* MainPageVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5F83A6ED2A649A42004DAF71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F83A6F12A649CBE004DAF71 /* TabBar.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5F83A6EE2A649A4A004DAF71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		785B73432A5EC5DB00DE3947 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +197,7 @@
 			children = (
 				78C6B2182A5D90B8009EB152 /* Intro */,
 				7885AD902A5E28B400200364 /* LogIn */,
+				5F83A6EB2A649A22004DAF71 /* MainPage */,
 			);
 			name = Scene;
 			sourceTree = "<group>";
@@ -287,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F83A6F22A649CBE004DAF71 /* TabBar.storyboard in Resources */,
 				788FE0222A5D8B860030D39C /* LaunchScreen.storyboard in Resources */,
 				788FE01F2A5D8B860030D39C /* Assets.xcassets in Resources */,
 				788FE01D2A5D8B830030D39C /* Main.storyboard in Resources */,
@@ -305,9 +347,11 @@
 				785B73452A5EC5F400DE3947 /* CustomTextField.swift in Sources */,
 				785B73472A5ED51100DE3947 /* OTPVC.swift in Sources */,
 				78C6B2232A5D988F009EB152 /* Routing.swift in Sources */,
+				5F83A6F62A64AC49004DAF71 /* UITabBarVC.swift in Sources */,
 				7885AD952A5E291700200364 /* SignUpVC.swift in Sources */,
 				78C6B2282A5DC529009EB152 /* OnboardingVC.swift in Sources */,
 				78C6B2202A5D97F0009EB152 /* KeyboardExtension.swift in Sources */,
+				5F83A6F42A64A303004DAF71 /* MainPageVC.swift in Sources */,
 				78CF7F712A60000C0000E870 /* UserDefaults+Extension.swift in Sources */,
 				788FE0162A5D8B830030D39C /* AppDelegate.swift in Sources */,
 				786FD0E92A5DFC510010F212 /* OnboardingModel.swift in Sources */,

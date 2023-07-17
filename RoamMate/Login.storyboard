@@ -350,8 +350,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="logInButtonTapped:" destination="YrL-RK-fMN" eventType="touchUpInside" id="8Ob-pQ-ds1"/>
-                                                    <action selector="logInTapped:" destination="YrL-RK-fMN" eventType="touchUpInside" id="7a4-qu-1bb"/>
+                                                    <action selector="logInTapped:" destination="YrL-RK-fMN" eventType="touchUpInside" id="B5a-VN-496"/>
                                                     <action selector="signUpTapped:" destination="YdT-Hl-NqO" eventType="touchUpInside" id="U5c-A4-smU"/>
                                                 </connections>
                                             </button>
@@ -543,8 +542,6 @@ your password</string>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="continueToOTP:" destination="EsU-Wy-bc8" eventType="touchUpInside" id="hZa-nP-LuJ"/>
-                                                    <action selector="logInButtonTapped:" destination="YrL-RK-fMN" eventType="touchUpInside" id="BfX-hJ-0cc"/>
-                                                    <action selector="logInTapped:" destination="YrL-RK-fMN" eventType="touchUpInside" id="F4s-o2-rJ0"/>
                                                     <action selector="signUpTapped:" destination="YdT-Hl-NqO" eventType="touchUpInside" id="w0j-1k-sar"/>
                                                 </connections>
                                             </button>
@@ -577,7 +574,6 @@ your password</string>
                                         <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                         <connections>
                                             <action selector="backButtonPressed:" destination="EsU-Wy-bc8" eventType="touchUpInside" id="uMA-xE-Bfb"/>
-                                            <action selector="backButtonTapped:" destination="YrL-RK-fMN" eventType="touchUpInside" id="KfQ-vo-Jhf"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -626,7 +622,6 @@ your password</string>
                                 <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <action selector="backButton:" destination="TzI-N6-2EN" eventType="touchUpInside" id="OeS-V1-08g"/>
-                                    <action selector="backButtonTapped:" destination="YrL-RK-fMN" eventType="touchUpInside" id="KKD-kO-IkA"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OTP Verification" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdk-cX-PXw">
@@ -728,8 +723,6 @@ the verification code.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="logInButtonTapped:" destination="YrL-RK-fMN" eventType="touchUpInside" id="led-Ei-JfW"/>
-                                    <action selector="logInTapped:" destination="YrL-RK-fMN" eventType="touchUpInside" id="wVh-ye-vv5"/>
                                     <action selector="signUpTapped:" destination="YdT-Hl-NqO" eventType="touchUpInside" id="xKd-ui-iTs"/>
                                     <action selector="verifyOTP:" destination="TzI-N6-2EN" eventType="touchUpInside" id="yq0-bc-2gN"/>
                                 </connections>
@@ -797,8 +790,7 @@ the verification code.</string>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
-                                    <action selector="backButton:" destination="JS3-HO-qf1" eventType="touchUpInside" id="f27-HG-531"/>
-                                    <action selector="backButtonTapped:" destination="YrL-RK-fMN" eventType="touchUpInside" id="Hf2-1E-gvf"/>
+                                    <action selector="backButton:" destination="JS3-HO-qf1" eventType="touchUpInside" id="BmM-hH-Ufp"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jef-Gq-i2h">
@@ -834,9 +826,7 @@ the verification code.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="finishSetupTapped:" destination="JS3-HO-qf1" eventType="touchUpInside" id="JQk-qK-kIk"/>
-                                    <action selector="logInButtonTapped:" destination="YrL-RK-fMN" eventType="touchUpInside" id="OVH-wR-74i"/>
-                                    <action selector="logInTapped:" destination="YrL-RK-fMN" eventType="touchUpInside" id="Jnh-Rj-fSC"/>
+                                    <action selector="finishSetupTapped:" destination="JS3-HO-qf1" eventType="touchUpInside" id="FWx-jm-leD"/>
                                     <action selector="signUpTapped:" destination="YdT-Hl-NqO" eventType="touchUpInside" id="23H-gJ-C35"/>
                                 </connections>
                             </button>
@@ -855,7 +845,7 @@ the verification code.</string>
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="resendCode:" destination="JS3-HO-qf1" eventType="touchUpInside" id="djb-u9-bvD"/>
+                                    <action selector="reSendCode:" destination="JS3-HO-qf1" eventType="touchUpInside" id="cib-um-PDA"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="right" contentVerticalAlignment="center" usesAttributedText="YES" placeholder="New Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8gg-Oy-EXC" customClass="CustomTextField" customModule="RoamMate" customModuleProvider="target">

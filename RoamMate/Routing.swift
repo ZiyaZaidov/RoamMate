@@ -68,4 +68,10 @@ class Routing {
         let controller = getViewController(id:String(describing: NewPasswordVC.self), storyboard: "Login") as! NewPasswordVC
         complition(controller)
     }
+    
+    func presentTabBarVC(complition: @escaping (UITabBarVC) -> Void) {
+        let controller = getViewController(id:String(describing: UITabBarVC.self), storyboard: "TabBar") as! UITabBarVC
+        complition(controller)
+    }
+  
 }

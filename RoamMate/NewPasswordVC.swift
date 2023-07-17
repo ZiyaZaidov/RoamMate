@@ -35,9 +35,10 @@ class NewPasswordVC: UIViewController {
     }
     
     @IBAction func finishSetupTapped(_ sender: UIButton) {
+       
     }
     
-    @IBAction func resendCode(_ sender: UIButton) {
+    @IBAction func reSendCode(_ sender: UIButton) {
     }
     
 }

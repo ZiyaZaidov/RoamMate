@@ -41,6 +41,9 @@ class LogInVC: UIViewController {
     }
     
     @IBAction func logInTapped(_ sender: UIButton) {
+        Routing.shared.presentTabBarVC { vc in
+            self.present(vc, animated: true)
+        }
         
     }
     
