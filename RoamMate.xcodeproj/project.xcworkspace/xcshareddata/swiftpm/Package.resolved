@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "shift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wickwirew/Shift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "6f35dd0ff16f7f1ff1a6606c1220577ebb6f636d"
+      }
+    }
+  ],
+  "version" : 2
+}
