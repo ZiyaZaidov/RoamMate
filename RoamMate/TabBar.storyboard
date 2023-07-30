@@ -143,7 +143,7 @@ Want To Discover</string>
                                                 </connections>
                                             </collectionView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                         <constraints>
                                             <constraint firstItem="kuX-jA-Py3" firstAttribute="top" secondItem="wWj-XE-LTT" secondAttribute="top" constant="20" id="0NG-VK-WpE"/>
                                             <constraint firstAttribute="trailing" secondItem="kuX-jA-Py3" secondAttribute="trailing" constant="20" id="5Ep-9V-t2F"/>
@@ -290,6 +290,9 @@ Want To Discover</string>
         <image name="tune" width="46" height="46"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
